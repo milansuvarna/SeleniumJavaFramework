@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BurrpSuite" preserve-order="true">
+ 
+ <listeners>
+<listener class-name="test.TestNGListener"></listener>
+ </listeners>
+ 
+ <test thread-count="1" name="Test1" >
+  <classes>
+  	   <!--  <class name="test.SignInTest"/> -->
+  	  <class name="test.BookmarkTest"/>
+  	  <class name="test.Blog"/>
+  	  <class name="test.FilterTest"/>
+  	  <class name="test.InviteReferTest"/>
+  	  <class name="test.LikeTest"/>
+  	  <class name="test.MyCheckinTest"/>
+  	  <class name="test.MyOfferTest"/>
+  	  <class name="test.RatingTest"/>
+  	  <class name="test.SearchTest"/>
+ 	  
+    </classes> 
+    
+    
+  </test> 
+  
+   
+      
+</suite> <!-- BurrpSuite -->
+  
+

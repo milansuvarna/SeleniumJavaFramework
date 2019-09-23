@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BurrpSuite" duration-ms="570542" started-at="2019-06-18T09:22:24Z" finished-at="2019-06-18T09:31:54Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="570542" started-at="2019-06-18T09:22:24Z" finished-at="2019-06-18T09:31:54Z">
+      <class name="test.Blog">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.Blog@553f17c]" name="setenv" is-config="true" duration-ms="1654" started-at="2019-06-18T09:25:50Z" finished-at="2019-06-18T09:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verifyBlogPage()[pri:0, instance:test.Blog@553f17c]" name="verifyBlogPage" duration-ms="62536" started-at="2019-06-18T09:25:51Z" finished-at="2019-06-18T09:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlogPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.Blog@553f17c]" name="closeDriver" is-config="true" duration-ms="240" started-at="2019-06-18T09:26:54Z" finished-at="2019-06-18T09:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.Blog -->
+      <class name="test.MyOfferTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.MyOfferTest@6500df86]" name="setenv" is-config="true" duration-ms="1533" started-at="2019-06-18T09:26:54Z" finished-at="2019-06-18T09:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verify_MyOfferPage()[pri:0, instance:test.MyOfferTest@6500df86]" name="verify_MyOfferPage" duration-ms="64423" started-at="2019-06-18T09:26:55Z" finished-at="2019-06-18T09:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_MyOfferPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.MyOfferTest@6500df86]" name="closeDriver" is-config="true" duration-ms="260" started-at="2019-06-18T09:28:00Z" finished-at="2019-06-18T09:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.MyOfferTest -->
+      <class name="test.RatingTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.RatingTest@402a079c]" name="setenv" is-config="true" duration-ms="1568" started-at="2019-06-18T09:28:00Z" finished-at="2019-06-18T09:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verify_Rating()[pri:0, instance:test.RatingTest@402a079c]" name="verify_Rating" duration-ms="62551" started-at="2019-06-18T09:28:02Z" finished-at="2019-06-18T09:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Rating -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.RatingTest@402a079c]" name="closeDriver" is-config="true" duration-ms="222" started-at="2019-06-18T09:29:04Z" finished-at="2019-06-18T09:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.RatingTest -->
+      <class name="test.MyCheckinTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.MyCheckinTest@42dafa95]" name="setenv" is-config="true" duration-ms="1756" started-at="2019-06-18T09:24:48Z" finished-at="2019-06-18T09:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verify_MyCheckin()[pri:0, instance:test.MyCheckinTest@42dafa95]" name="verify_MyCheckin" duration-ms="59852" started-at="2019-06-18T09:24:49Z" finished-at="2019-06-18T09:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_MyCheckin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.MyCheckinTest@42dafa95]" name="closeDriver" is-config="true" duration-ms="223" started-at="2019-06-18T09:25:49Z" finished-at="2019-06-18T09:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.MyCheckinTest -->
+      <class name="test.InviteReferTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.InviteReferTest@271053e1]" name="setenv" is-config="true" duration-ms="1637" started-at="2019-06-18T09:23:34Z" finished-at="2019-06-18T09:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verifyInviteReferPage()[pri:0, instance:test.InviteReferTest@271053e1]" name="verifyInviteReferPage" duration-ms="71731" started-at="2019-06-18T09:23:36Z" finished-at="2019-06-18T09:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInviteReferPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.InviteReferTest@271053e1]" name="closeDriver" is-config="true" duration-ms="260" started-at="2019-06-18T09:24:47Z" finished-at="2019-06-18T09:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.InviteReferTest -->
+      <class name="test.FilterTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.FilterTest@4f7d0008]" name="setenv" is-config="true" duration-ms="1489" started-at="2019-06-18T09:29:33Z" finished-at="2019-06-18T09:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="VerifyFilter()[pri:1, instance:test.FilterTest@4f7d0008]" name="VerifyFilter" duration-ms="74593" started-at="2019-06-18T09:29:34Z" finished-at="2019-06-18T09:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFilter -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.FilterTest@4f7d0008]" name="closeDriver" is-config="true" duration-ms="194" started-at="2019-06-18T09:30:49Z" finished-at="2019-06-18T09:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.FilterTest -->
+      <class name="test.LikeTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.LikeTest@589838eb]" name="setenv" is-config="true" duration-ms="1527" started-at="2019-06-18T09:30:49Z" finished-at="2019-06-18T09:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verify_Like()[pri:1, instance:test.LikeTest@589838eb]" name="verify_Like" duration-ms="63478" started-at="2019-06-18T09:30:51Z" finished-at="2019-06-18T09:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Like -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.LikeTest@589838eb]" name="closeDriver" is-config="true" duration-ms="269" started-at="2019-06-18T09:31:54Z" finished-at="2019-06-18T09:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.LikeTest -->
+      <class name="test.BookmarkTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.BookmarkTest@5f341870]" name="setenv" is-config="true" duration-ms="3076" started-at="2019-06-18T09:22:24Z" finished-at="2019-06-18T09:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verify_Bookmark()[pri:0, instance:test.BookmarkTest@5f341870]" name="verify_Bookmark" duration-ms="66692" started-at="2019-06-18T09:22:27Z" finished-at="2019-06-18T09:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Bookmark -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.BookmarkTest@5f341870]" name="closeDriver" is-config="true" duration-ms="489" started-at="2019-06-18T09:23:34Z" finished-at="2019-06-18T09:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.BookmarkTest -->
+      <class name="test.SearchTest">
+        <test-method status="PASS" signature="setenv()[pri:0, instance:test.SearchTest@59ec2012]" name="setenv" is-config="true" duration-ms="1655" started-at="2019-06-18T09:29:05Z" finished-at="2019-06-18T09:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setenv -->
+        <test-method status="PASS" signature="verifySearchBox()[pri:0, instance:test.SearchTest@59ec2012]" name="verifySearchBox" duration-ms="26341" started-at="2019-06-18T09:29:06Z" finished-at="2019-06-18T09:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.SearchTest@59ec2012]" name="closeDriver" is-config="true" duration-ms="241" started-at="2019-06-18T09:29:33Z" finished-at="2019-06-18T09:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- BurrpSuite -->
+</testng-results>
